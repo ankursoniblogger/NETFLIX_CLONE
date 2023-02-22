@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    /* width: 100vw; */
+    height: 100vh;
+    background-image: url(/bg\ img.png);
+}
+
+nav .logo img {
+    width: 260px;
+}
+
+nav .btn1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -90px;
+}
+
+nav .btn1 p {
+    margin-inline: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+nav .btn1 .btn {
+    margin-right: 40px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+nav .btn1 .btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    color: white;
+    margin-top: 10%;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.text .txt {
+    color: white;
+}
+
+.text .txt h3 {
+    font-size: 30px;
+}
+
+.text .txt p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.text input {
+    width: 500px;
+    height: 60px;
+    padding: 20px;
+    outline: none;
+    font-size: 20px;
+}
+
+.text button {
+    height: 60px;
+    padding: 0 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    /* outline: none; */
+    border: 0;
+}
+
+.text .btn2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 23px;
+
+}
+
+/* main :start */
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid rgb(53, 52, 52);
+    background-color: black;
+}
+
+.box1 h1 {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 190px;
+    margin-left: 100px;
+    color: white;
+}
+
+.box1 .an {
+    font-size: 22px;
+    margin-top: 25px;
+    padding: 10px;
+    line-height: 35px;
+
+}
+
+/* Box 2 start  */
+
+.box2 {
+    display: flex;
+    justify-content: space-aroundx;
+    border-top: 10px solid rgb(48, 47, 47);
+    background-color: black;
+}
+
+.box2 .text2 {
+    text-align: center;
+}
+
+.box2 .text2 h1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 200px;
+
+}
+
+.box2 .text2 .pt {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/* box 3 start  */
+.box3 {
+    display: flex;
+    justify-content: space-around;
+    border-top: 10px solid rgb(58, 57, 57);
+    background-color: black;
+}
+
+.box3 h1 {
+    text-align: center;
+    margin-top: 170px;
+    color: white;
+    font-size: 65px;
+}
+
+.box3 h1 .an {
+    font-size: 20px;
+    margin: 30px;
+    line-height: 30px;
+    word-spacing: 3px;
+}
+
+/* box 4 start  */
+
+.box4 {
+    display: flex;
+    justify-content: space-aroundx;
+    border-top: 10px solid rgb(59, 59, 59);
+    background-color: black;
+
+}
+
+.box4 .text3 {
+    text-align: center;
+
+}
+
+.box4 .text3 h1 {
+    font-size: 65px;
+    color: white;
+    margin-top: 150px;
+    margin-left: -50px;
+
+}
+
+
+.box4 .text3 .pt {
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+/* BOX 5 START  */
+
+.box5 {
+    text-align: center;
+    border-top: 10px solid rgb(61, 61, 61);
+    padding-top: 30px;
+    background-color: black;
+}
+
+.box5 .text4 h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.box5 .ankur button {
+    width: 60%;
+    height: 70px;
+    text-align: start;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+
+}
+
+.ankur button {
+    color: white;
+    background-color: rgb(36, 36, 36);
+}
+
+.box5 p {
+    color: white;
+    margin: 30px 0;
+    font-size: 20px;
+
+}
+
+.last-email-button input {
+    width: 40%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.last-email-button button {
+    height: 52px;
+    padding: 0 50px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+/* footer start  */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 55px;
+    background-color: black;
+    color: gray;
+    border-top: 5px solid rgb(61, 61, 61);
+}
+
+.list h3 {
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+.list p {
+    font-size: 13px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 20px;
+}
